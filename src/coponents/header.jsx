@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from '../effects/hoverLink'
 
 const Header = () => (
     <div className="w-full h-36 grid gap-4 content-center">
@@ -10,19 +11,34 @@ const Header = () => (
                 <div>
                     <ul className="text-white flex space-x-12 font-ubuntu ">
                         <li>
-                            <h1>INICIO</h1>
+                            <Link
+                                url={''}
+                                text={'INICIO'}
+                            />
                         </li>
                         <li>
-                            <h1>ACERCA DE MI</h1>
+                            <Link
+                                url={''}
+                                text={'ACERCA DE MI'}
+                            />
                         </li>
                         <li>
-                            <h1>EXPERIENCIA</h1>
+                            <Link
+                                url={''}
+                                text={'EXPERIENCIA'}
+                            />
                         </li>
                         <li>
-                            <h1>HABILIDADES</h1>
+                            <Link
+                                url={''}
+                                text={'HABILIDADES'}
+                            />
                         </li>
                         <li>
-                            <h1>CONTACTO</h1>
+                            <Link
+                                url={''}
+                                text={'CONTACTO'}
+                            />
                         </li>
                     </ul>
                 </div>

@@ -6,6 +6,8 @@ module.exports = {
     extend: {
       colors: {
         'viridian': '#003a2b',
+        themeBlue: '#6196E4',
+        themeDarkBlue: '#020215',
       },
       fontFamily: {
         ubuntu: ['Varela Round', 'sans-serif']
