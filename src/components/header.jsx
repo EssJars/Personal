@@ -1,15 +1,21 @@
 import React from 'react'
 import Link from '../effects/hoverLink'
+import LegacyierLogo from '../images/LegacierWeb.png'
 
 const Header = () => (
-    <div className="w-full h-36 grid gap-4 content-center">
-        <div className="mr-16 ml-16">
+    <div className="z-50 fixed w-full h-32 grid gap-4 content-center">
+        <div className="mx-16">
             <div className="flex justify-between">
-                <div className="text-white">
-                    <h1 className="text-2xl font-ubuntu font-extrabold">PORTAFOLIO</h1>
+                <div className="text-white flex">
+                    <img
+                        src={LegacyierLogo}
+                        alt='some value'
+                        className="h-12 w-12"
+                    />
+                    <h1 className="text-xl font-ubuntu font-extrabold grid content-center ml-2 text-shadow">PORTAFOLIO</h1>
                 </div>
-                <div>
-                    <ul className="text-white flex space-x-12 font-ubuntu ">
+                <div className="grid content-center">
+                    <ul className="text-white flex space-x-12 font-ubuntu font-extrabold">
                         <li>
                             <Link
                                 url={''}

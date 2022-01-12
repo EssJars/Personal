@@ -8,9 +8,13 @@ module.exports = {
         'viridian': '#003a2b',
         themeBlue: '#6196E4',
         themeDarkBlue: '#020215',
+        viridian2: '#00825a',
       },
       fontFamily: {
         ubuntu: ['Varela Round', 'sans-serif']
+      },
+      blur: {
+        xs: '3px',
       },
     },
   },
