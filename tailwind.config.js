@@ -14,7 +14,12 @@ module.exports = {
         ubuntu: ['Varela Round', 'sans-serif']
       },
       blur: {
-        xs: '3px',
+        xs: '7px',
+        sm: '6px',
+        md: '2px',
+      },
+      screens: {
+        desktop: '68.75rem', //1100px
       },
     },
   },

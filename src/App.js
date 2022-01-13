@@ -7,14 +7,20 @@ function App() {
   return (
     <div className="bg-black w-full h-screen">
       < Header />
-      <div className="w-full h-screen grid content-center">
-        <div className="flex ml-36 h-full">
-          <div className="w-4/6 grid content-end my-72 z-10">
-            <h1 className="text-themeBlue text-4xl font-ubuntu font-extrabold">HOLA!</h1>
-            <h1 className="text-white text-7xl font-ubuntu font-extrabold">SOY ÁNGEL</h1>
+      <div className='absolute w-full h-screen flex justify-center sm:justify-end'>
+        <img 
+            src={AngelImg} 
+            alt='some value'  
+            className="bg-black sm:h-screen z-0 blur-xs sm:blur-sm desktop:blur-md" 
+        />
+      </div>
+      <div className="w-full h-screen grid sm:content-center desktop:content-end">
+        <div className="flex desktop:ml-36 ml-10 h-full">
+          <div className="desktop:w-4/6 w-full grid content-end mb-48 sm:mb-0 desktop:mb-40 z-10">
+            <h1 className="text-themeBlue text-2xl desktop:text-4xl font-ubuntu font-extrabold">HOLA!</h1>
+            <h1 className="text-white text-5xl sm:text-6xl desktop:text-7xl font-ubuntu font-extrabold">SOY ÁNGEL</h1>
             <RotatingText/>
           </div>
-          <img src={AngelImg} alt='some value'  className="bg-white h-screen z-0 blur-xs" />
         </div>
       </div>
     </div>
