@@ -11,7 +11,8 @@ module.exports = {
         viridian2: '#00825a',
       },
       fontFamily: {
-        ubuntu: ['Varela Round', 'sans-serif']
+        ubuntu: ['Varela Round', 'sans-serif'],
+        inter: ['Inter', 'sans-serif']
       },
       blur: {
         xs: '7px',
