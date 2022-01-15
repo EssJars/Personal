@@ -6,7 +6,7 @@ const Header = () => (
     <div className="z-50 fixed w-full h-32 grid gap-4 content-center">
         <div className="sm:mx-16 mx-5">
             <div className="flex justify-between">
-                <div className="text-white flex">
+                <div className="text-black flex">
                     <img
                         src={LegacyierLogo}
                         alt='some value'

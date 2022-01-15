@@ -26,3 +26,82 @@
       opacity: 0;
     }
   }
+
+  
+
+  .page {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #2A2F36;
+  }
+  
+  .loading-blurbs {
+    width: 400px;
+    height: 180px;
+    text-align: left;
+    position: relative;
+  }
+  
+  .loading-blurbs code {
+    --animation-duration: 500ms;
+    display: block;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    animation-name: move;
+    animation-duration: calc(var(--animation-duration) * 8);
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    opacity: 0;
+    color: #12C0DD;
+  }
+  
+  @keyframes move {
+    from {
+      transform: translateY(0);
+      opacity: 0;
+    }
+    
+    50% {
+      opacity: 1;
+    }
+    
+    100% {
+      opacity: 0;
+      transform: translateY(-170px);
+    }
+  }
+  
+  .loading-blurbs code.typescript {
+    animation-delay: var(--animation-duration) ;
+  }
+  
+  .loading-blurbs code.ruby {
+    animation-delay: calc(var(--animation-duration) * 2);
+  }
+  
+  .loading-blurbs code.csharp {
+    animation-delay: calc(var(--animation-duration) * 3);
+  }
+  
+  .loading-blurbs code.cplusplus {
+    animation-delay: calc(var(--animation-duration) * 4);
+  }
+  
+  .loading-blurbs code.java {
+    animation-delay: calc(var(--animation-duration) * 5);
+  }
+  
+  .loading-blurbs code.swift {
+    animation-delay: calc(var(--animation-duration) * 6);
+  }
+  
+  .loading-blurbs code.php {
+    animation-delay: calc(var(--animation-duration) * 7);
+  }
