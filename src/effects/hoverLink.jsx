@@ -26,7 +26,7 @@ const Link = styled.a`
 const HoverLink = ({url,classNames,text}) => (
     <Link
         href={url}
-        className={`${classNames} under text-white inline-block`}
+        className={`${classNames} under text-black inline-block`}
         target="_blank"
         rel="noreferrer"
     >

@@ -16,7 +16,7 @@ const Header = () => (
                 </div>
                 <div className="grid content-center">
                     <div className="hidden desktop:block">
-                        <ul className="text-white flex space-x-12 font-ubuntu font-extrabold">
+                        <ul className="text-black flex space-x-12 font-ubuntu font-extrabold">
                             <li>
                                 <Link
                                     url={''}

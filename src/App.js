@@ -1,19 +1,19 @@
 import React from 'react';
 import Header from './components/header'
-import AngelImg from './images/asdfg.jpg'
 import RotatingText from './effects/rotatingText';
-import ParticleHead from './effects/particleHead';
+import Profile from './effects/ProfileImg';
 
 function App() {
   return (
     <div className="bg-white text-black w-full h-screen">
       < Header />
       <div className='absolute w-full h-screen flex justify-center sm:justify-end'>
-        <img 
+        {/* <img 
             src={AngelImg} 
             alt='some value'  
             className="bg-black sm:h-screen z-0 blur-xs sm:blur-sm desktop:blur-md" 
-        />
+        /> */}
+        <Profile />
       </div>
       <div className="w-full h-screen grid content-center">
         <div className="flex sm:ml-32 desktop:ml-32">
