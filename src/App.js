@@ -2,6 +2,7 @@ import React from 'react';
 import Header from './components/header'
 import RotatingText from './effects/rotatingText';
 import Profile from './effects/ProfileImg';
+// import BgImg from './images/Profile.jpg'
 
 function App() {
   return (
@@ -9,7 +10,7 @@ function App() {
       < Header />
       <div className='absolute w-full h-screen flex justify-center sm:justify-end'>
         {/* <img 
-            src={AngelImg} 
+            src={BgImg} 
             alt='some value'  
             className="bg-black sm:h-screen z-0 blur-xs sm:blur-sm desktop:blur-md" 
         /> */}
