@@ -16,29 +16,41 @@ function App() {
         /> */}
         <Profile />
       </div>
-      <div className="w-full h-screen grid content-center">
-        <div className="flex sm:ml-32 desktop:ml-32">
+      <div className="relative desktop:w-8/12 h-screen grid content-center">
+        <div className="sm:ml-32 desktop:ml-28">
           <div
-            className="desktop:w-1/2 w-full z-10"
+            className="w-full z-10"
           >
-            <h1
-              className="text-themeBlue flex justify-center sm:justify-between
-                          text-6xl sm:text-6xl desktop:text-7xl 
-                          font-inter font-extrabold"
-            >
-              ÁNGEL
-            </h1>
             <h1
               className="text-6xl sm:text-7xl
                         flex justify-center sm:justify-between 
-                        desktop:text-8xl font-inter 
+                        desktop:text-5xl font-inter 
                         font-extrabold"
             >
-              RAMIREZ
+             Hola! 
             </h1>
-            <div className='flex justify-center sm:justify-between'>
+            <h1
+              className="text-6xl sm:text-7xl 
+              desktop:text-7xl font-inter 
+              font-extrabold"
+            >
+              Soy <font className="text-themeBlue">Angel Ramirez</font>
+            </h1>
+          </div>
+          <div className='flex justify-center sm:justify-between mb-10'>
               <RotatingText/>
-            </div>
+          </div>
+          <div className='z-10'>
+            <button
+              className="hover:bg-transparent bg-themeBlue 
+              hover:text-themeBlue font-semibold text-white 
+              py-2 px-8 border hover:border-themeBlue 
+              border-transparent rounded-full
+              transition ease-in-out duration-500"
+            >
+              Mostrar CV
+            </button>
+            
           </div>
         </div>
       </div>

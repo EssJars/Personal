@@ -23,7 +23,7 @@ module.exports = {
         desktop: '68.75rem', //1100px
       },
       dropShadow: {
-        '3xl': '0 35px 35px rgba(0, 0, 0, 1)',
+        '3xl': '0 10px 10px rgba(0, 0, 0, 1)',
       },
     },
   },

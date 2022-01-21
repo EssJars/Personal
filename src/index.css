@@ -27,6 +27,8 @@
     }
   }
 
+  /* EFECTOS IMAGEN DE PERFIL */
+
   .pic{
     width: 400px;
     height: 400px;
@@ -43,7 +45,7 @@
     height: 40px;
     background: url('./images/Render.jpg') no-repeat;
     background-size: cover;
-    filter: sepia(100%);
+    filter: drop-shadow(20px 20px 20px rgb(0, 0, 0));
     opacity: 0;
   }
   .pic:hover:before{

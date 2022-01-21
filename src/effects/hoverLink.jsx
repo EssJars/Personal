@@ -11,7 +11,7 @@ const Link = styled.a`
         bottom: 0;
         right: 0;
         width: 0;
-        height: 2.5px;
+        height: 4px;
         background-color: #6196E4;
         transition: width 0.6s cubic-bezier(0.25, 1, 0.5, 1);
     }
